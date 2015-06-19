@@ -1,0 +1,10 @@
+<h1><%= @post.title %></h1>
+
+<p>
+  <%= @post.body %>
+</p>
+
+<%= link_to 'Voltar', root_path %> |
+<%= link_to 'Editar', edit_post_path %>|
+<%= link_to 'Deletar', post_path(@post), method: :delete, data: {confirm: 'Are you sure?'} %>
+
