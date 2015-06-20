@@ -3,10 +3,12 @@
 <% @posts.each do |post| %>
     <h2><%= link_to post.title, post %></h2>
 
+  <p>
+    <%= post.user.email %>
     <div class="list-date">
       <%= post.created_at.strftime("%B %Y") %>
     </div>
-
+  </p>
 <% end %>
 
 

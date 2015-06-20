@@ -5,15 +5,15 @@ before_action :authenticate_user!, except: [:index, :show]
   end
 
   def new
-    @post = Post.new
+    @post = current_user.posts.new
   end
 
   def show
-    @post = Post.find(params[:id])
+    @post = current_user.posts.find(params[:id])
   end
 
   def create
-    @post = Post.create(post_params)
+    @post = current_user.posts.build(post_params)
 
     if @post.save
       redirect_to @post,
@@ -24,11 +24,11 @@ before_action :authenticate_user!, except: [:index, :show]
   end
 
   def edit
-    @post = Post.find(params[:id])
+    @post = current_user.posts.find(params[:id])
   end
 
   def update
-    @post = Post.find(params[:id])
+    @post = current_user.posts.find(params[:id])
 
     if @post.update(post_params)
       redirect_to @post,
@@ -39,7 +39,7 @@ before_action :authenticate_user!, except: [:index, :show]
   end
 
   def destroy
-    @post = Post.find(params[:id])
+    @post = current_user.posts.find(params[:id])
     @post.destroy
 
     redirect_to root_path,

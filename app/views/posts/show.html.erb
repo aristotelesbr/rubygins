@@ -1,4 +1,17 @@
-<h1><%= @post.title %></h1>
+<div class="page">
+    <div class="h1-show">
+      <%= @post.title %>
+    </div>
+
+    <div class="show-date">
+      <%= @post.created_at.strftime("%B %Y") %>
+    </div>
+
+    <div class="email-show">
+      <%= @post.user.email %>
+    </div>
+</div>
+
 <p>
   <%= @post.body %>
 </p>
@@ -10,5 +23,6 @@
   <% else %>
     <%= link_to 'Voltar', posts_path %>
   <% end %>
+
 
 <%- disqus_thread %>

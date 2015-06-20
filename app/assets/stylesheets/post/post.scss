@@ -2,6 +2,11 @@ html {
   background: #f5f5f5;
 }
 
+.email-show{
+  font-size: 12px;
+  color: black;
+}
+
 .list-date {
   width: 100px;
   border: none;
@@ -13,6 +18,26 @@ html {
   padding: 0.25em 0.5em;
   text-align: left;
   margin-bottom: 0.75em;
+}
+
+.show-date {
+  width: 100px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.2;
+  background-color: #727272;
+  color: #fff;
+  padding: 0.25em 1.5em;
+  display: inline;
+  margin-right: 1%;
+}
+
+.h1-show {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.2;
+  display: inline;
+  margin-right: 1%;
 }
 
 h2 {
