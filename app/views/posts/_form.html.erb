@@ -1,20 +1,16 @@
-<% if @post.errors.any? %>
-  <div id="error_explanation">
-    <p>
-      Erro no formulario
-    </p>
-  </div>
-<% end %>
+<%= render 'error_messages', record: @post  %>
 <%= form_for @post do |f| %>
-  <p>
+  <div>
     <%= f.label :title %>
     <%= f.text_field :title %>
-  </p>
+  </div>
 
-  <p>
+  <div>
     <%= f.label :body %>
     <%= f.text_area :body %>
-  </p>
-  </br>
-  <%= f.submit %>
+  </div>
+
+  <div>
+    <%= f.submit class: 'button' %>
+  </div>
 <% end %>

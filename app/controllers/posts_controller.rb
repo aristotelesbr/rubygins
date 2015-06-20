@@ -43,7 +43,7 @@ class PostsController < ApplicationController
     @post.destroy
 
     redirect_to root_path,
-      alert: "Post deletado"
+      alert: "Post deletado."
   end
 
   private
