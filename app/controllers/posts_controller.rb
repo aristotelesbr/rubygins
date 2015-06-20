@@ -9,7 +9,7 @@ before_action :authenticate_user!, except: [:index, :show]
   end
 
   def show
-    @post = current_user.posts.find(params[:id])
+    @post = Post.find(params[:id])
   end
 
   def create

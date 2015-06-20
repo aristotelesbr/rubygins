@@ -1,12 +1,12 @@
 <%= render 'error_messages', record: @post  %>
 
 <%= form_for @post do |f| %>
-  <div class="task-form-title">
+  <div class="post-form-title">
     <%= f.label :title %>
     <%= f.text_field :title %>
   </div>
 
-  <div class="task-form no-separator">
+  <div class="post-form no-separator">
     <%= f.label :body %>
     <%= f.text_field :body %>
     <%= f.submit class: 'button' %>

@@ -2,11 +2,6 @@ html {
   background: #f5f5f5;
 }
 
-.email-show{
-  font-size: 12px;
-  color: black;
-}
-
 .list-date {
   width: 100px;
   border: none;
@@ -134,12 +129,12 @@ li:hover .actions {
 }
 
 
-.task-form-title label {
+.post-form-title label {
   width: 100%;
   outline-color: #83A968;
 }
 
-.task-form input[type="text"] {
+.post-form input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 24px;
@@ -165,35 +160,6 @@ li:hover .actions {
   background: #666;
 }
 
-.task-form .button {
-  background: #83A968;
-  position: absolute;
-  right: 6px;
-  top: 33px;
-}
-
-.task-form .button:hover {
-  background: #688753;
-}
-
-.task-form {
-  position: relative;
-}
-
-.complete label,
-.pending label {
-  display: inline;
-}
-
-.complete label {
-  color: #888;
-  font-size: 14px;
-  text-decoration: line-through;
-}
-
-.pending {
-  font-size: 24px;
-}
 
 input[type=checkbox] {
   -webkit-appearance: none;
@@ -303,11 +269,6 @@ footer {
 
 footer p {
   margin: 0;
-}
-
-.tasks {
-  margin-top: 40px;
-  margin-bottom: 20px;
 }
 
 .button_to {
