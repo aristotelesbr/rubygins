@@ -4,7 +4,7 @@
     </div>
 
     <div class="show-date">
-      <%= @post.created_at.strftime("%B %Y") %>
+      <%= l(@post.created_at, :format => :short) %>
     </div>
 
     <div class="email-show">

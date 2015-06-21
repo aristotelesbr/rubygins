@@ -3,3 +3,5 @@ pt-BR:
     posts:
       new: 'Novo post'
       edit: 'Editar post'
+      show: 'Post'
+      index: Posts

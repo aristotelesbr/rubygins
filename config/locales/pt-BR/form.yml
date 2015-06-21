@@ -1,0 +1,8 @@
+pt-BR:
+  form_error_message: Verifique o formulário antes de continuar.
+
+  labels:
+    post:
+      title: 'Titulo'
+      body: 'Descrição'
+
