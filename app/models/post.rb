@@ -1,3 +1,5 @@
+require 'coderay'
+
 class Post < ActiveRecord::Base
   belongs_to :user
 

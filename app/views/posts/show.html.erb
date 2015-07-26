@@ -13,7 +13,7 @@
 </div>
 
 <p>
-  <%= @post.body %>
+   <%= sanitize (coderay(@post.body)) %>
 </p>
 
   <%= render 'show_user_login' %>
