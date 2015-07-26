@@ -1,7 +1,6 @@
 <% if user_signed_in?%>
   <%= link_to t('actions.post.show.edit'), edit_post_path %>|
-  <%= link_to t('actions.post.show.delet'), post_path(@post), method: :delete, data: {confirm: 'Tem certeza que deseja excluir?'} %>|
-  <%= link_to t('actions.post.show.back'), posts_path %>
+  <%= link_to t('actions.post.show.delet'), post_path(@post), method: :delete, data: {confirm: 'Tem certeza que deseja excluir?'} %>
 <% else %>
     &#x232B; <%= link_to t('actions.post.show.back'), posts_path %>
 <% end %>

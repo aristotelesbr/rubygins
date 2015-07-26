@@ -1,29 +1,4 @@
 /*
  *= require_tree .
  *= require_self
- */
-
- /*.field_with_errors {
-  color: red;
-  display: inline-block;
-}
-
-.field_with_errors input {
-  border: 2px solid red;
-}
-
-.button_to {
-  display: inline;
-}
-
-.button_to input[type=submit] {
-  border: none;
-  background: transparent;
-  display: inline;
-  font-size: inherit;
-  font-family: inherit;
-  cursor: pointer;
-  color: #03c;
-  text-decoration: underline;
-}
 */

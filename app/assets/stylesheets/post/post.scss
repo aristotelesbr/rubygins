@@ -42,6 +42,7 @@ body {
   margin: 0 auto;
   width: 780px;
 }
+
 .link-new{
   display: inline;
 }
@@ -146,15 +147,7 @@ li:hover .actions {
   outline-color: #83A968;
 }
 
-.post-form input[type="text"] {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 19px;
-  outline-color: #83A968;
-  padding: 15px 100px 15px 15px;
-  width: 100%;
-  box-sizing: border-box;
-}
+
 
 
 .button {
@@ -175,53 +168,6 @@ li:hover .actions {
 }
 
 
-input[type=checkbox] {
-  -webkit-appearance: none;
-  background-color: #fafafa;
-  border-radius: 3px;
-  border: 1px solid #aaa;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
-  display: inline-block;
-  padding: 9px;
-  position: relative;
-  top: 4px;
-}
-
-.firefox input[type=checkbox] {
-  top: 0;
-}
-
-input[type=checkbox]:checked:after {
-  color: #444;
-  content: '\2714';
-  font-size: 14px;
-  left: 3px;
-  position: absolute;
-  top: 0px;
-}
-
-.opera input[type="checkbox"] { top: -4px !important; }
-.firefox input[type=checkbox] { top: 0; }
-.firefox .pending input[type=checkbox] { top: -4px; }
-.firefox .complete input[type=checkbox] { top: 0; }
-
-.complete input[type=checkbox] {
-  top: 7px;
-}
-
-.complete input[type=checkbox]:checked:after {
-  color: #777;
-}
-
-.placeholder .new-task label {
-  display: none;
-}
-
-form > div:last-child:not(.no-separator) {
-  border-top: 1px solid #ccc;
-  padding-top: 15px;
-}
-
 .message {
   border-radius: 5px;
   color: #fff;
@@ -237,17 +183,19 @@ form > div:last-child:not(.no-separator) {
   background: #BE3605;
 }
 
-label {
-  display: block;
-}
-
 input[type="text"],
 input[type="email"],
 input[type="password"] {
   font-size: 25px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   width: 97%;
   margin-top: 10px;
+}
+
+textarea {
+  margin: 0px;
+  height: 221px;
+  width: 779px;
 }
 
 .error-messages li {
