@@ -1,11 +1,14 @@
 <header>
   <%= link_to root_path, class: 'logo' do %>
-  <%= image_tag 'logo.png' %>
+    <%= image_tag 'logo.png' %>
   <% end %>
 
   <nav>
     <% if user_signed_in?%>
     <ul>
+      <div class="li-nav">
+        <%= link_to t('links.post.add'), new_post_path %>
+      </div>
       <li>
         <%= current_user.email %>
       </li>

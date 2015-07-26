@@ -10,6 +10,9 @@
     <%= f.label :body, t('labels.post.body') %>
     <%= f.text_field :body %>
     <%= f.submit class: 'button' %>
+    <%= link_to t('links.post.cancel'), posts_path %>
   </div>
+
+
 
 <% end %>

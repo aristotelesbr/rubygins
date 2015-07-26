@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 
+# Custom Gems
 gem 'devise', '~> 3.5.1'
 gem 'disqus_rails'
 gem 'rails-env'
+gem 'coderay'
+
+
 gem 'rails', '4.2.1'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'

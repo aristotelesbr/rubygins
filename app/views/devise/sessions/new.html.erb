@@ -1,13 +1,11 @@
-<h2>Log in</h2>
-
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="login-field">
-    <%= f.label :email %><br />
+    <%= f.label :email, t('labels.form.email') %><br />
     <%= f.email_field :email, autofocus: true %>
   </div>
 
   <div class="login-field">
-    <%= f.label :password %><br />
+    <%= f.label :password, t('labels.form.password') %><br />
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
 
@@ -17,7 +15,6 @@
       <%= f.label :remember_me %>
     </div>
   <% end -%>
-    <%= f.submit "Log in", class: 'button' %>
-
+    <%= f.submit t('labels.button.login'), class: 'button' %>
 <% end %>
 

@@ -1,0 +1,14 @@
+pt-BR:
+  links:
+    post:
+      add: 'Novo post'
+      cancel: 'Cancelar'
+
+  actions:
+    post:
+      show:
+        edit: 'Editar'
+        back: 'Inicio'
+        delet: 'Deletar'
+
+

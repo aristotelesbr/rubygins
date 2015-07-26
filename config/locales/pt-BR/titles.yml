@@ -5,3 +5,6 @@ pt-BR:
       edit: 'Editar post'
       show: 'Post'
       index: Posts
+
+    sessions:
+      new: 'Login'

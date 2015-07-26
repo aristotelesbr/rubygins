@@ -1,5 +1,8 @@
 pt-BR:
   activerecord:
+    attributes:
+      post:
+        title: 'Título'
 
   helpers:
     submit:

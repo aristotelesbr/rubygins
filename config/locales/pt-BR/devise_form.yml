@@ -1,0 +1,9 @@
+pt-BR:
+  labels:
+    form:
+      email: 'E-mail'
+      password: 'Senha'
+      remember_me: 'Lembrar'
+
+    button:
+      login: 'Entrar'

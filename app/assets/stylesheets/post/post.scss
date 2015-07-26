@@ -42,6 +42,9 @@ body {
   margin: 0 auto;
   width: 780px;
 }
+.link-new{
+  display: inline;
+}
 
 a {
   color: #DE3333
@@ -49,6 +52,16 @@ a {
 
 a img {
   border: none;
+  margin-bottom: -14px;
+}
+
+.li-nav{
+
+  margin: 3px;
+  margin-left: -1px;
+  padding-left: 201px;
+  margin-bottom: -85px;
+  margin-top: 23%;
 }
 
 
@@ -100,6 +113,7 @@ nav li {
   float: left;
   list-style: none;
   margin-left: 15px;
+
 }
 
 nav a {
@@ -135,7 +149,7 @@ li:hover .actions {
 .post-form input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 19px;
   outline-color: #83A968;
   padding: 15px 100px 15px 15px;
   width: 100%;
@@ -152,6 +166,7 @@ li:hover .actions {
   font-size: 24px;
   padding: 10px 20px;
   text-transform: lowercase;
+  margin-top: 10px;
 }
 
 .button:hover {
@@ -228,9 +243,10 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-  font-size: 17px;
+  font-size: 25px;
   padding: 5px 10px;
   width: 97%;
+  margin-top: 10px;
 }
 
 .error-messages li {
