@@ -6,6 +6,9 @@ gem 'disqus_rails'
 gem 'rails-env'
 gem 'coderay'
 
+# Bootstrap Gems
+gem 'bootstrap-sass', '~> 3.3.5.1'
+
 
 gem 'rails', '4.2.1'
 gem 'pg'
